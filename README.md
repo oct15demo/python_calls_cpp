@@ -1,7 +1,7 @@
 <h3>python_calls_cpp</h3>
 
 Demo of calling C/C++ from python.
-There are two versions, with and without passing arguments.
+There are two versions, with and without passing arguments. The .cpp files are made of plain ordinary hello world type code. Only the python contains anything really interesting.
 
 Without arguments
 
