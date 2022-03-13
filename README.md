@@ -22,7 +22,7 @@ Contents of this repository:
    
 <hr>
 Note: To see arguments printed, you must call compiled callmewithargs.cpp using python callmainwithargs.py<br>
-If you attempt to run the a.out compiled from callmewithargs.cpp with the python script callmain.py, it will produce a segmentation fault and cause python to "quit unexpectedly". Use of a try catch in C/C++ or try except in python can not trap this error (I tried).
+If you attempt to run the a.out compiled from callmewithargs.cpp with the python script callmain.py, it will produce a segmentation fault and cause python to "quit unexpectedly". Use of a try catch in C/C++ or try except in python cannot trap this error (I tried).
 <hr>
 The code uses the marcros __FUNCTION__, __FILE__, and __LINE__ to output the function name, file name, and line number for the use case of logging in the console of the Eclipse CDT IDE. Eclipse CDT, the C/C++ version of the IDE, apparently doesn't have the capability of log lines in the console linking to the source file as found in the Java environment and other C/C++ IDEs. However, calling the C/C++ program from python will cause the log output links to be active, using the same format as required by Java or python, filename:linenumber. To do this, you need the pydev plugin for Eclipse. 
 <br><br>
